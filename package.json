@@ -1,0 +1,23 @@
+{
+  "name": "frontend1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack": "^5.37.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.15",
+    "tailwindcss": "^2.1.2"
+  },
+  "scripts": {
+    "start": "webpack serve --open --mode development",
+    "build:css": "npx tailwindcss-cli@latest build tailwind.css -o assets/css/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
